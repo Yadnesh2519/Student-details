@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+++<html lang="en">
+
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Registration</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="g" required> Male
+                        <input type="radio" name="g"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course:</td>
+                    <td>
+                        <select required>
+                            <option>Information Technology</option>
+                            <option>Computer Science</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="btns">
+                        <button type="submit" class="submit">Register</button>
+                        <button type="reset" class="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
